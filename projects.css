@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #333;
+    color: snow;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333;
+    border-bottom: 3px solid #ff02ab;
+}
+
+.flex-container a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: snow;
+    padding: 2px;
+}
+
+.flex-container a:hover {
+    background-color: rgba(0, 255, 255, 0.644);
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 5px 5px #0000002d;
+
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tbody tr td a {
+    text-decoration: none;
+    color: snow;
+}
+
+table tr:hover {
+    background-color: rgba(255, 2, 171, 0.644);
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0468aa;
+  color: white;
+}
+

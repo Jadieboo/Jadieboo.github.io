@@ -1,4 +1,139 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #333;
+    color: snow;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333;
+    border-bottom: 3px solid #ff02ab;
+    margin: 0;
+}
+
+.flex-container a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: snow;
+    padding: 2px;
+}
+
+.flex-container a:hover {
+    background-color: rgba(0, 255, 255, 0.644);
+}
+
+.container, footer {
+    width: 70%;
+    margin: auto;
+
+}
+
+.showcase-flex-container {
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+.showcase{
+    display: flex;
+    flex-direction: column;
+    color: #ff02ab;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.showcase div:first-child h1 {
+    color: #ff02ab;
+    margin: 0;
+}
+
+.showcase div:first-child p {
+    color: aqua;
+    margin: 0;
+}
+
+
+.showcase div:last-child h2, p {
+    color: snow;
+    margin: 0;
+}
+
+.showcase div:last-child p {
+    margin-top: 5px;
+}
+
+.showcase div:last-child p em {
+    color: #ff02ab;
+}
+
+.showcase div:last-child p strong {
+    color: aqua;
+
+}
+
+
 img {
     width: 285px;
-    height: 381px
+    height: 381px;
+    margin-right: 25px;
+    border-radius: 25%;
 }
+
+.box-1{
+    border: 5px ridge #ff02ab;
+    text-align: center;
+    padding: 10px;
+}
+
+.box-1 h4 {
+    margin: 0 0 5px 0;
+    font-size: 1.25rem;
+}
+
+.box-2 {
+    font-size: 1.2rem;
+}
+
+.hobbies ul {
+    padding: 0 0 0 5px;
+}
+
+.hobbies ul li {
+    list-style: none;
+    text-align: left;
+}
+
+.goals ol {
+    padding: 0 0 0 5px;
+}
+
+.goals ol li {
+    list-style: none;
+    text-align: left;
+}
+
+.icons {
+    padding: 1px 20px 5px 0;
+    width: 24px;
+    height: 19px;
+    color: #ff02ab;
+}
+
+.icons:hover {
+    font-size: 1.5rem;
+    color: aqua;
+}
+
+
+

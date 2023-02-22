@@ -6,47 +6,60 @@
     <meta name="author" content="J. Sale">
     <meta name="description" content="This is my html page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ef4342f3da.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>My Profile</title>
 </head>
 
 <body>
-    <nav>
+    <nav class="flex-container">
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="https://www.linkedin.com/in/jade-sale/" target="_blank">LinkedIn</a>
     </nav>
     
-    <header>
-        <img src="profile-pic.JPG" alt="My profile picture">
-        <h1>Jade Sale</h1>
-        <h2>My Profile</h2>
-        <p>An <em>awesome</em> and <strong>amazing</strong> website demonstration!</p>
-    </header>
-
+    <main class="container">
+    
+        <div class="showcase-flex-container">
+            <img src="profile-pic.JPG" alt="My profile picture">
+            <div class="showcase">
+                <div>
+                    <h1>Jade Sale</h1>
+                    <p><strong>Java developer</strong></p>
+                </div>
+                <div>
+                    <h2>My Profile</h2>
+                    <p>An <em>awesome</em> and <strong>amazing</strong> website demonstration!</p>
+                </div>
+            </div>
+        </div>
     
     
-    <section>
+    <section class="box-1">
         <h4>Skills</h4>
-        <p>Agile, Scrum, Java</p>
+        <p>Agile - Scrum - HTML - CSS - Java - Spring - SQL</p>
     </section>
 
-    <section>
+    <section class="box-2 hobbies">
         <h4>Hobbies</h4>
         <ul>
-            <li>Coding</li>
-            <li>Gaming</li>
-            <li>Baking/Cooking</li>
-            <li>Watching TV shows and films</li>
+            <li><i class="fa-solid fa-code icons"></i>Coding</li>
+            <li><i class="fa-solid fa-gamepad icons"></i>Gaming</li>
+            <li><i class="fa-solid fa-cookie-bite icons"></i>Baking/Cooking</li>
+            <li><i class="fa-solid fa-tv icons"></i>Watching TV shows and films</li>
+            <li><i class="fa-solid fa-music icons"></i>Listening to music</li>
         </ul>
     </section>
 
-    <section>
+    <section class="box-2 goals">
         <h4>Goals</h4>
         <ol>
-            <li>Become a great programmer</li>
-            <li>Grow Twitch channel more</li>
-            <li>Live in Cali for a while</li>
+            <li><i class="fa-regular fa-star icons"></i>Become a great programmer</li>
+            <li><i class="fa-regular fa-star icons"></i>Get married</li>
+            <li><i class="fa-regular fa-star icons"></i>Grow Twitch channel more</li>
+            <li><i class="fa-regular fa-star icons"></i>Live in Cali for a while</li>
+            <li><i class="fa-regular fa-star icons"></i>Take dance classes</li>
+            <li><i class="fa-regular fa-star icons"></i>Get another doggo</li>
         </ol>
     </section>
 
@@ -58,6 +71,7 @@
             <button type="submit">Submit</button>
         </form>
     </section>
+</main>
 
     <footer>
         <small>Copyright &#169; Sparta Global 2023 <cite>J. Sale</cite></small>
